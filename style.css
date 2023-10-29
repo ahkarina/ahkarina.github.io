@@ -1,0 +1,321 @@
+html,
+body,
+header,
+.view {
+  height: 100vh;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+.fontFamily {
+  font-family: serif;
+}
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #f2f7f8c9 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) 
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+/* circulos */
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 25px;
+}
+
+.wow {
+  visibility: hidden;
+}
+
+/* progreso */
+.progress {
+  margin: 10px;
+  width: 500px;
+}
+
+@media (max-width: 560px) {
+  .progress {
+    width: 300px;
+  }
+  .ancho {
+    max-width: 330px;
+  }
+  .ancho-boton {
+    max-width: 150px;
+  
+  }
+}
+
+/* Color tooltip */
+.tooltip-danger .tooltip-inner {
+  color: white;
+  font-weight: bold;
+  
+
+  background-color: #d41051;
+  border: 1px solid #f6f5f2;
+}
+.tooltip-danger .tooltip.bs-tooltip-top .arrow:before {
+  border-top-color:#120ee6f1;
+}
+.tooltip-danger .tooltip.bs-tooltip-right .arrow:before {
+  border-right-color:#120ee6f1;
+}
+.tooltip-danger .tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #120ee6f1;
+}
+.tooltip-danger .tooltip.bs-tooltip-left .arrow:before {
+  border-left-color:#120ee6f1;
+}
+
+/* tooltip color dark */
+.tooltip-dark .tooltip-inner {
+  color: white;
+  font-weight: bold;
+  
+
+  background-color: #d41051;
+  border: 1px solid #e7c607;
+}
+.tooltip-dark .tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #120ee6f1;
+}
+.tooltip-dark .tooltip.bs-tooltip-right .arrow:before {
+  border-right-color:#120ee6f1;
+}
+.tooltip-dark .tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: :#120ee6f1;
+}
+.tooltip-dark .tooltip.bs-tooltip-left .arrow:before {
+  border-left-color:#120ee6f1;
+}
+/* fin tooltip color dark */
+/* tooltip-info */
+.tooltip-info .tooltip-inner {
+  color: white;
+  font-weight: bold;
+  
+
+  background-color: #d41051;
+  border: 1px solid #e7c607;
+}
+.tooltip-info .tooltip.bs-tooltip-top .arrow:before {
+  border-top-color:#120ee6f1;
+}
+.tooltip-info .tooltip.bs-tooltip-right .arrow:before {
+  border-right-color:#120ee6f1;
+}
+.tooltip-info .tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color:#120ee6f1;
+}
+.tooltip-info .tooltip.bs-tooltip-left .arrow:before {
+  border-left-color:#120ee6f1;
+}
+
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  
+  border-radius: 0.25rem;
+}
+
+.cc-education-header {
+  padding-top: 50px;
+
+  text-align: center;
+  color: #fff;
+}
+.card .card-body {
+  min-height: 190px;
+}
+
+.category {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9a9a9a;
+}
+p {
+  line-height: 1.61em;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.pull-right {
+  float: right;
+}
+
+.bordes {
+  border: 2px solid #0dcaf0;
+  border-radius: 10px;
+}
+
+.color {
+  background-color: crimson;
+}
+
+html {
+scroll-behavior: smooth;
+
+}
+
+/* contacto imagen */
+
+.imagen-fondo {
+  background-image: url("imagenes/contacto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  
+}
+
+.ancho-card {
+  width: 500px;
+
+}
+
+.borde {
+  border-radius: 20px;
+
+}
+
+.sombra {
+ text-shadow:  -4px 3px 0 #34d16e;
+  
+}
+.sombra1 {
+  text-shadow: -3px 1px 0 rgba(230, 216, 25, 0.74);
+}
+.sombra2 {
+  text-shadow: -3px 1px 0 rgba(25, 223, 230, 0.74);
+}
+
+/* Orange */
+
+
+.warning:hover {
+  background-color:#28bbce;
+ 
+}
+
+.btn-1 {
+  border: 2px solid;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+
+/* horizontal en celulares */
+
+
+@media   (max-device-width: 736px) and (min-device-width: 667px) {
+  .margen{
+    margin-bottom: 300px;
+  
+  }
+  
+}
+@media (max-device-width: 640px) and (min-device-width: 640px){
+  .altura {
+    margin-bottom: 300px;
+  }
+}
+
+@media (max-device-width: 568px) and (min-device-width: 568px){
+  .altura {
+    margin-bottom: 340px;
+  }
+  .anchura {
+    max-width: 530px;
+  }
+}
+
+/*iphone-x */
+
+@media (max-device-width: 812px) and (min-device-width: 812px){
+.margen-iphone-x{
+  margin-bottom: 300px;
+}
+
+}
+@media (max-device-width: 768px) and (min-device-width: 768px) {
+  .ipadFontSize {
+    
+    
+    font-size: 38px;
+  }
+}
+
+/* .gradian-github {
+  background: linear-gradient(to left, red, orange, rgb(255, 0, 221), green, blue);
+  
+}
+.gradian-whatsapp {
+  background: linear-gradient(to bottom, red, orange, rgb(30, 255, 0), green, blue);
+}
+.gradian-facebook {
+  background: linear-gradient(to top, red, orange, rgb(30, 255, 0), green, blue);
+}
+.gradian-linke {
+  background: linear-gradient(to right, red, orange, rgb(30, 255, 0), green, blue);
+} */
+
+.decoration {
+  list-style: none;
+}
+
